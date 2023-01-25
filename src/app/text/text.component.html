@@ -1,0 +1,6 @@
+<a>Click to generate text: </a>
+<span
+  [class]="color(letter, input[i])"
+  *ngFor="let letter of childText.split(''); let i = index"
+  >{{ letter }}</span
+>
